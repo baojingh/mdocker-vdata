@@ -19,3 +19,20 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+# Init ENV
+sudo apt-get  install nodejs
+node -v
+sudo apt-get  install  npm
+npm cache clean --force
+npm set registry https://registry.npmjs.org/
+npm install --save vue2-editor
+npm config set registry https://registry.npm.taobao.org
+npm install --save vue2-editor
+sudo npm install -g @vue/cli@
+
+
+### create project
+#最后创建vue项目
+vue init webpack myweb
